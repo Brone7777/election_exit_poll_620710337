@@ -70,7 +70,7 @@ class _HomepageState extends State<Homepage> {
                       Padding(
                         padding: const EdgeInsets.only(left: 8.0),
                         child: Text(
-                            '${candidate.candidateTitle}${candidate.candidateFirstName} ${candidate.candidateLastName}',
+                            '${candidate.candidateNumber}${candidate.candidateTitle}${candidate.candidateFirstName} ${candidate.candidateLastName}',
                             style: Theme.of(context).textTheme.bodyText1),
                       ),
                     ],
