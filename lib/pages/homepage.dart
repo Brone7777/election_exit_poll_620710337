@@ -171,8 +171,8 @@ class _HomepageState extends State<Homepage> {
     _showMaterialDialog('SUCCESS', 'บันทึกข้อมูลสำเร็จ ${elector.toString()}');
   }
 
-  _handleClickCandidate(Candidate candidate) {
-    _election(candidate.number);
+  _handleClickCandidate(candidate candidate) {
+    _election(candidate.candidateNumber);
   }
 
   void _showMaterialDialog(String title, String msg) {
